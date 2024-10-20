@@ -20,8 +20,6 @@ I had to choose a new IDE, and based on recommendations, I went with IntelliJ ID
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-
-- Item 1
-- Item 2
-- Item 3
+- Make it cleaner and more readable
+- Automatically import CSV from Google Sheets
+- Make it an EXE

@@ -13,8 +13,8 @@ public class BookActions {
     private List<Contact> selectedContacts;
     private static final String CSV_FILE = "phonebook.csv";
     private static final DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("MM/dd/yyyy");
-    final String fromEmail = "exsplorator@gmail.com";  // Your Gmail address
-    final String password = "oaec huws sjoh wewq";  // Gmail password or app-specific password
+    final String fromEmail = "YOUR_MAIL_GOES_HERE";  // Your Gmail address, no tricks and things use the address you want to send messages from
+    final String password = "YOUR_STUFF_GOES_HERE";  // Generate an App password or access token, can be done at google account settings (or just search google)
 
     public BookActions() {
         this.contacts = new ArrayList<>();
@@ -37,7 +37,7 @@ public class BookActions {
             writer.write("Name,PhoneNumber,Carrier,ReminderDate\n");
             writer.write("John Doe,+15551234567,vtext.com,10/17/2024\n");  // Verizon
             writer.write("Jane Smith,+15559876543,tmomail.net,10/18/2024\n");  // T-Mobile
-            writer.write("Egor Smirnov,+12084979285,tmomail.net,10/20/2024\n");  // AT&T
+            writer.write("Viktor Smirnov,+12383575281,tmomail.net,10/19/2024\n");  // AT&T
             System.out.println("Sample CSV created.");
         } catch (IOException e) {
             System.out.println("Error creating CSV: " + e.getMessage());

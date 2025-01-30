@@ -23,3 +23,5 @@ I had to choose a new IDE, and based on recommendations, I went with IntelliJ ID
 - Make it cleaner and more readable
 - Automatically import CSV from Google Sheets
 - Make it an EXE
+
+[Nothing to see here](https://youtu.be/BuWAS29Nw-8)
